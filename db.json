@@ -1,0 +1,10 @@
+{
+  "profile": [
+    {
+      "imagem": "assets/atari.png",
+      "nome": "Atari",
+      "preco": "R$ 60,00",
+      "id": 1
+    }
+  ]
+}
