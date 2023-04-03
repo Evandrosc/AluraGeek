@@ -106,3 +106,24 @@
         width: 60%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .rodape__container {
+        flex-direction: column;
+        padding: 3rem 1rem;
+    }
+
+    .rodape__container__sobre__nos {
+        align-items: center;
+    }
+
+    .rodape__navegacao__menu__lista {
+        text-align: center;
+    }
+    
+    .rodape__formulario {
+        margin-top: 2rem;
+        width: 100%;
+    }
+}
+

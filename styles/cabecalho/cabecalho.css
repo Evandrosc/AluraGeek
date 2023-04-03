@@ -22,8 +22,18 @@
 
 .cabecalho__input {
     line-height: 1.5rem;
-    width: 24.57rem;
+    width: 24.57vw;
     background-color: var(--cor1);
+}
+
+.cabecalho__container__login {
+    display: flex;
+    align-items: center;
+    gap: 6vw;
+}
+
+.cabecalho__img__pesquisar {
+    display: none;
 }
 
 .cabecalho__menu__login {
@@ -52,5 +62,23 @@
 
     .cabecalho__menu__login {
         width: 10.375rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho {
+        margin: 1rem;
+    }
+
+    .cabecalho__container__input {
+        display: none;
+    }
+
+    .cabecalho__img__pesquisar {
+        display: inline-block;
+    }
+
+    .cabecalho__menu__login {
+        width: 8.3125rem;
     }
 }
